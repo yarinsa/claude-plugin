@@ -24,7 +24,7 @@ Skills are prefixed by domain (`product-`, `fe-`, `qa-`) so they group predictab
 
 | Agent | Owns |
 |-------|------|
-| `product-analyst` | Scopes tickets into testable criteria and the red test skeleton engineers start from. |
+| `product-manager` | Scopes tickets into testable criteria and the red test skeleton engineers start from. |
 | `fe-engineer` | Component API shape, data flow, and frontend diff review. |
 | `qa-engineer` | Writes and fixes Playwright tests, diagnoses flakes, drives a live browser to verify behavior. |
 
