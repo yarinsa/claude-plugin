@@ -14,6 +14,7 @@ Personal Claude Code plugin. Skills I use daily, packaged so they travel across 
 | Skill | What it does |
 |-------|--------------|
 | `product-acceptance-criteria` | Shared product/engineering workflow: write Given/When/Then criteria grouped by layer with explicit blocking order, run the coverage checklist, then scaffold one failing test per criterion. |
+| `fe-address-bug` | Bug-fixing loop: prove the root cause and get it approved before writing code, capture it in a failing test, fix, re-run the same assertion, then sweep for the same defect elsewhere. |
 | `fe-react-patterns` | React + TypeScript pattern catalogue: component API shape, state, hooks, performance, design-system primitives, advanced TS. 16 reference docs plus runnable examples. |
 | `qa-playwright-tests` | Opinionated Playwright guidance across 33 references: locators, auto-waiting, fixtures-over-POM, test data, flaky diagnosis, mocking, auth state, sharded CI with blob reports. |
 | `qa-playwright-cli` | Drive a real browser from Bash - click, fill, snapshot, eval, trace, mock network, manage storage state. A context-cheap replacement for browser MCP servers. |
