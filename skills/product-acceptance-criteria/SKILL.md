@@ -1,5 +1,5 @@
 ---
-name: acceptance-criteria-tdd
+name: product-acceptance-criteria
 description: Use when writing acceptance criteria, a Definition of Done, or story requirements for a feature, and when turning those criteria into failing test skeletons before implementation. Covers Given/When/Then grammar, splitting criteria by layer (schema, backend, frontend) with explicit blocking order, the coverage checklist for cases teams forget (empty results, tenant isolation, backward compatibility, error paths), and generating one test stub per criterion so the suite starts red.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: react-patterns
+name: fe-react-patterns
 description: React and TypeScript design patterns - component API shape (compound components, layout/list components, container components, partial application, recursive components), state management, custom hooks, performance and memoization discipline, design-system primitives, and advanced TypeScript for components and hooks. Invoke when designing or reviewing a React component API, when a component is accumulating configuration props, when refactoring hooks or re-render hotspots, when picking a state-management approach, or when the user asks for "the pattern" for a component.
 ---
 

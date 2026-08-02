@@ -1,5 +1,5 @@
 ---
-name: playwright-test-practices
+name: qa-playwright-tests
 description: Use when writing, reviewing, or fixing Playwright tests - E2E, component, API, GraphQL, visual, accessibility, security, or performance. Covers locators and auto-waiting, fixtures over Page Object Model, test data and isolation, flaky-test diagnosis, trace debugging, network mocking, authentication and storage state, clock mocking, multi-user contexts, mobile and responsive, i18n and RTL, canvas/Electron/extension targets, config, sharded CI with blob reports, and reporting.
 ---
 
@@ -94,4 +94,4 @@ Never mark a flaky test fixed without a repeat run. Never raise a timeout to mak
 
 ## Related
 
-For driving a browser interactively from the shell - screenshots, DOM inspection, manual QA - see the `playwright-cli` skill in this plugin. This skill is about the test suite; that one is about live browser control.
+For driving a browser interactively from the shell - screenshots, DOM inspection, manual QA - see the `qa-playwright-cli` skill in this plugin. This skill is about the test suite; that one is about live browser control.

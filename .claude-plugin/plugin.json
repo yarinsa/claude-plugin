@@ -1,6 +1,6 @@
 {
   "name": "yarinsa-practices",
-  "description": "Personal Claude Code skills: browser automation via CLI, React architecture, code quality, and UI QA practices.",
+  "description": "Personal Claude Code skills and agents across three domains: QA and Playwright, React frontend architecture, and testable product acceptance criteria.",
   "version": "0.1.0",
   "author": {
     "name": "Yarin Sasson",
