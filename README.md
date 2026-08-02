@@ -13,6 +13,7 @@ Personal Claude Code plugin. Skills I use daily, packaged so they travel across 
 
 | Skill | What it does |
 |-------|--------------|
+| `react-patterns` | React + TypeScript pattern catalogue: component API shape, state, hooks, performance, design-system primitives, advanced TS. 16 reference docs plus runnable examples. |
 | `playwright-cli` | Drive a real browser from Bash - click, fill, snapshot, eval, trace, mock network, manage storage state. A context-cheap replacement for browser MCP servers. |
 
 ## License
