@@ -32,7 +32,7 @@ Apply patterns using the target repo's own conventions. Never paste an example v
 | Portals, error boundaries, `key` semantics, refs, hydration mismatches | Advanced concepts | [advanced-concepts.md](references/advanced-concepts.md) |
 | Element props, context splitting to avoid re-renders | Clean code | [clean-code.md](references/clean-code.md) |
 | Where domain logic lives, route components, encapsulation boundaries | Architecture | [architecture.md](references/architecture.md) |
-| API client abstraction, modeling loading/error/success, aborting requests | API layer | [api-layer.md](references/api-layer.md) |
+| API client abstraction, modeling loading/error/success, aborting requests, spinner flash on fast responses | API layer | [api-layer.md](references/api-layer.md), `examples/api-layer/` |
 
 ## Decision rules (apply in order)
 
@@ -130,6 +130,9 @@ A component that renders itself for nested data, with the scalar case as the bas
 - Controlled inputs whose owner never reads the value - should be uncontrolled.
 - Props that are actually configuration of an internal child - pass the child as `children` or an element prop.
 - `any` in TypeScript. Reach for generics, `unknown`, or discriminated unions instead.
+- Separate `isLoading` / `isError` state fields, where both can be true at once. Derive them from one status.
+- Fetching that ignores the previous in-flight request, so a slow early response overwrites a fast later one.
+- An unconditional spinner on a request that usually resolves in under 100ms.
 
 ## Planning template
 
