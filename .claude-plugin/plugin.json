@@ -1,0 +1,13 @@
+{
+  "name": "yarinsa-practices",
+  "description": "Personal Claude Code skills: browser automation via CLI, React architecture, code quality, and UI QA practices.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Yarin Sasson",
+    "url": "https://github.com/yarinsa"
+  },
+  "homepage": "https://github.com/yarinsa/claude-plugin",
+  "repository": "https://github.com/yarinsa/claude-plugin",
+  "license": "MIT",
+  "keywords": ["skills", "playwright", "react", "code-quality", "ui-qa"]
+}

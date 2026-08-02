@@ -1,0 +1,14 @@
+{
+  "name": "yarinsa",
+  "owner": {
+    "name": "Yarin Sasson",
+    "url": "https://github.com/yarinsa"
+  },
+  "plugins": [
+    {
+      "name": "yarinsa-practices",
+      "source": "./",
+      "description": "Personal Claude Code skills: browser automation via CLI, React architecture, code quality, and UI QA practices."
+    }
+  ]
+}
